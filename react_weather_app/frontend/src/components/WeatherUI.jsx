@@ -16,7 +16,7 @@ function WeatherUI({data, unit}) {
   return (
     <>
       <div className='flex flex-row justify-between'>
-        <div className='flex flex-col ml-10 mt-25 text-left'>
+        <div className='flex flex-col ml-6 sm:ml-10 mt-8 sm:mt-25 text-left'>
               <div className='text-xl font-semibold text-space-3'>{name}, {sys.country}</div>
               <div className='text-xs font-normal mt-1'>Today {day} {month}</div>
         </div>
@@ -24,8 +24,8 @@ function WeatherUI({data, unit}) {
         {/* <div>Current Time</div> */}
        </div>
 
-     <div className='text-7xl font-bold text-space-3 mt-14 ml-17'>{converted_temp}°</div>
-     <div className='flex text-lg font-light text-space-3 mt-2 ml-16'>
+     <div className='text-7xl font-bold text-space-3 mt-3 sm:mt-14 ml-36 sm:ml-17'>{converted_temp}°</div>
+     <div className='flex text-lg font-light text-space-3 ml-35 sm:ml-16'>
         <span><img src={icon} className='w-9 h-9 item-center -mt-1'/></span> {main_description}
      </div>  
     </>

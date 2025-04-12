@@ -28,7 +28,7 @@ function SearchUi({onSearch}) {
         <button className='p-2 rounded-md bg-purple-500 text-white cursor-pointer ml-2'>Search</button>
       </div> */}
 
-         <div className='ml-10 my-5 flex flex-row'>
+         <div className='flex flex-row w-65 sm:w-full sm:ml-5 sm:my-5 '>
             <input type="text"
             placeholder='Enter a city name'
             value={inputItem} onChange={(e) => setInputItem(e.target.value)}
