@@ -21,6 +21,10 @@
    .weather_type{
     margin-left: 7rem;
    }
+   .humidity_text{
+    font-size: 10px;
+    font-weight: 500;
+   }
    .footer_creator{
     margin-top: 30rem;
     margin-left: 5rem;
