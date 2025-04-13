@@ -17,7 +17,7 @@ function WeatherDetailsUi({data, unit}) {
   return (
     <>
       {/* Details Section */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-4 sm:mt-6 text-black mx-5">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-4 sm:mt-4 text-black mx-5">
         
         <HumidityCard humidity={humidity} />
         <WindCard wind_speed={converted_wind_speed}/>
