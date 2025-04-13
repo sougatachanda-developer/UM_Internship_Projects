@@ -36,7 +36,7 @@ function HomeLayoutUi() {
           <SearchUi onSearch={handleCitySearch}/>
           </div>
             {/* <TailwindToggle /> */}
-            <div className='ml-auto sm:ml-2 mr-2 mt-2 sm:my-auto sm:mx-auto lg:mx-auto'>
+            <div className='ml-auto sm:ml-2 mr-2 mt-2 sm:my-auto sm:mx-auto lg:mx-auto weather_toggle'>
             <CustomToggle 
             labels={['°C', '°F']}
             values={['celsius', 'fahrenheit']}
@@ -49,7 +49,7 @@ function HomeLayoutUi() {
           {data ? <WeatherUI data={data} unit={unit} /> : <Loader />}
 
         </div>
-        <div className='flex flex-col mx-auto bg-white h-74 sm:h-85 lg:h-170 w-96 sm:w-140 lg:w-180 ml-auto lg:-ml-80 -my-80 sm:ml-auto sm:-my-44 lg:my-6 rounded-xl border-none bg-gradient-to-br from-blue-400 to-blue-200 shadow-r-xl'>
+        <div className='flex flex-col mx-auto bg-white h-74 sm:h-85 lg:h-170 w-96 sm:w-140 lg:w-180 ml-auto lg:-ml-80 -my-80 sm:ml-auto sm:-my-44 lg:my-6 rounded-xl border-none bg-gradient-to-br from-blue-400 to-blue-200 shadow-r-xl weather_forecast'>
           {/* Here the forecast / more details for the current / searched city will be displayed */}
           <div className='hidden sm:hidden lg:block'> 
           <SearchUi onSearch={handleCitySearch}/>
@@ -59,7 +59,7 @@ function HomeLayoutUi() {
           {data ? <WeatherDetailsUi data={data} unit={unit}/> : <Loader /> }
         </div>
       </div>
-      <span className='flex text-3xs text-center ml-38 sm:ml-60 md:ml-93 lg:ml-160 mb-4 mt-82 sm:mt-47 lg:-mt-3 w-screen'>
+      <span className='flex text-3xs text-center ml-38 sm:ml-60 md:ml-93 lg:ml-160 mb-4 mt-82 sm:mt-47 lg:-mt-3 w-screen footer_creator'>
           Made by {CREATOR_NAME}
       </span>
     </>
