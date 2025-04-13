@@ -10,9 +10,9 @@ function HumidityCard({humidity}) {
             {/* Can add dynamic value like good, normal, bad but need to add if-statement */}
             {humidity}% <span className="text-sm text-gray-400"></span></p>
           <div className="flex justify-between text-sm mt-2">
-            <span>Good</span>
-            <span>Normal</span>
-            <span>Bad</span>
+            <span className='humidity_text'>Good</span>
+            <span className='humidity_text'>Normal</span>
+            <span className='humidity_text'>Bad</span>
           </div>
           <div className="relative w-full bg-gray-200 h-2 mt-1 rounded-full">
             <div className="absolute bg-blue-400 h-2 rounded-full" style={{ width: `${humidity}%`}}></div>
