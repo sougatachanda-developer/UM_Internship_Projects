@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+@media (max-width: 400px){
+   .weather{
+    width: 20rem;
+   }
+   .weather_forecast{
+    width: 20rem;
+   } 
+   .weather_toggle{
+    margin-left: -3rem;
+    margin-top: 3rem;
+   }
+   .country_name{
+    margin-top: -0.1rem;
+    margin-bottom: 1rem;
+   }
+   .temperature_data{
+    margin-left: 7rem;
+   }
+   .weather_type{
+    margin-left: 7rem;
+   }
+   .footer_creator{
+    margin-top: 30rem;
+    margin-left: 5rem;
+   }
+}
