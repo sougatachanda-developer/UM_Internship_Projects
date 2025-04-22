@@ -1,0 +1,107 @@
+[
+  {
+      "question": "What is the capital of Japan?",
+      "options": ["Tokyo", "Seoul", "Beijing", "Bangkok"],
+      "correctAnswer": "Tokyo"
+  },
+  {
+      "question": "Who discovered gravity after observing a falling apple?",
+      "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+      "correctAnswer": "Isaac Newton"
+  },
+  {
+      "question": "What is the hardest natural substance on Earth?",
+      "options": ["Gold", "Iron", "Diamond", "Granite"],
+      "correctAnswer": "Diamond"
+  },
+  {
+      "question": "Which organ in the human body is responsible for pumping blood?",
+      "options": ["Lungs", "Liver", "Heart", "Kidneys"],
+      "correctAnswer": "Heart"
+  },
+  {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Mars", "Venus", "Earth", "Mercury"],
+      "correctAnswer": "Mars"
+  },
+  {
+      "question": "Who painted the Sistine Chapel ceiling?",
+      "options": ["Michelangelo", "Raphael", "Leonardo da Vinci", "Donatello"],
+      "correctAnswer": "Michelangelo"
+  },
+  {
+      "question": "What is the largest ocean on Earth?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+      "correctAnswer": "Pacific Ocean"
+  },
+  {
+      "question": "What is the chemical symbol for water?",
+      "options": ["H2O", "O2", "NaCl", "CO2"],
+      "correctAnswer": "H2O"
+  },
+  {
+      "question": "What is the tallest mountain in the world?",
+      "options": ["K2", "Mount Everest", "Kangchenjunga", "Makalu"],
+      "correctAnswer": "Mount Everest"
+  },
+  {
+      "question": "Who invented the telephone?",
+      "options": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Guglielmo Marconi"],
+      "correctAnswer": "Alexander Graham Bell"
+  },
+  {
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "options": ["Japan", "China", "South Korea", "Vietnam"],
+      "correctAnswer": "Japan"
+  },
+  {
+      "question": "What is the most spoken language in the world?",
+      "options": ["Spanish", "English", "Mandarin Chinese", "Hindi"],
+      "correctAnswer": "Mandarin Chinese"
+  },
+  {
+      "question": "Who was the first President of the United States?",
+      "options": ["Thomas Jefferson", "Abraham Lincoln", "George Washington", "John Adams"],
+      "correctAnswer": "George Washington"
+  },
+  {
+      "question": "What is the currency of the United Kingdom?",
+      "options": ["Euro", "Dollar", "Pound Sterling", "Yen"],
+      "correctAnswer": "Pound Sterling"
+  },
+  {
+      "question": "Which gas do plants use during photosynthesis?",
+      "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Methane"],
+      "correctAnswer": "Carbon Dioxide"
+  },
+  {
+      "question": "What is the smallest unit of matter?",
+      "options": ["Atom", "Molecule", "Proton", "Electron"],
+      "correctAnswer": "Atom"
+  },
+  {
+      "question": "What is the longest river in the world?",
+      "options": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
+      "correctAnswer": "Nile River"
+  },
+  {
+      "question": "What does DNA stand for?",
+      "options": [
+          "Deoxyribonucleic Acid",
+          "Deoxyribonucleic Alkaline",
+          "Deoxyribosomal Acid",
+          "Deoxyribosomal Alkaline"
+      ],
+      "correctAnswer": "Deoxyribonucleic Acid"
+  },
+  {
+      "question": "Which element has the chemical symbol 'O'?",
+      "options": ["Oxygen", "Gold", "Osmium", "Ozone"],
+      "correctAnswer": "Oxygen"
+  },
+  {
+      "question": "Which year did World War II end?",
+      "options": ["1943", "1944", "1945", "1946"],
+      "correctAnswer": "1945"
+  }
+]
