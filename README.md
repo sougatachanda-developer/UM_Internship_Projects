@@ -1,8 +1,5 @@
-# React Based Webapps
-React based weather, todo ans interactive quiz app
+# Interactive Quiz using react
+React based Interactive Quiz app
 
-# Weather App Url
-https://react-weather-webapp-eta.vercel.app/
-
-# Todo App Url
-https://react-todo-app-ten-taupe.vercel.app/
+# URL
+https://react-interactive-quiz-app.vercel.app/
